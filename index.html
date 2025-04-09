@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brutalist Buildings in NYC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div id="sidebar-container">
+        <div id="title">Brutalist NYC</div>
+        <p>Click on the markers to learn more about NYC's Brutalist architecture</p>
+        <div id="legend">
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #744800;"></div>
+                <span>1950</span>
+            </div>
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #741000;"></div>
+                <span>1960</span>
+            </div>
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #740074;"></div>
+                <span>1970</span>
+            </div>
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #1b0074;"></div>
+                <span>1980</span>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    <div id="map-container"></div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.js"></script>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
